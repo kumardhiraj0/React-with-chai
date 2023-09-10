@@ -22,8 +22,8 @@ function App() {
       <h2>Counter: {count}</h2>
       {count === 20 && <h2>Count limit is 20 only</h2>}
       {count === 0 && <h2>We can not go into negative value</h2>}
-      <button onClick={increment}>Increment</button><br />
-      <button onClick={decrement}>Decrement</button>
+      <button onClick={increment} style={{backgroundColor:"blue",margin:"5px"}}>Increment</button><br />
+      <button onClick={decrement} style={{backgroundColor:"blue",margin:"5px"}}>Decrement</button>
     </>
   )
 }
